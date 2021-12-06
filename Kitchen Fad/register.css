@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+h3{
+    color:white;
+}
+nav {
+    position: fixed;
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    font-family:'Montserrat', sans-serif;
+ } 
+ 
+ nav ul {
+    background:rgba(235, 235, 235, 0.815);
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+ }
+ 
+ nav ul li{
+    float:left;
+ }
+ 
+ nav ul li:hover{
+    background:#26272b;
+ }
+ 
+ nav ul li:hover a{
+     color:rgb(253, 253, 253);
+ }
+ 
+ nav ul li a{
+     display: block;
+     padding: 17px;
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+     border-radius: 6px;
+ }
+
+
+body{
+    margin:0;
+    padding:0;
+    text-align: center;
+    background:  url(form1.jpg);
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+}
+.contact-title {
+    margin-top: 100px;
+    color:rgb(33, 2, 54);
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1{
+    font-size:32px;
+    line-height:10px;
+}
+.contact-title {
+    font-size: 16px;
+
+}
+form{
+    margin-top: 30px;
+    transition: all 4s ease-in-out ;
+    font-family:'Times New Roman', Times, serif
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom:1px solid #26272b;
+    color:#fff;
+    font-size: 18px;
+    margin-bottom:10px;
+}
+input {
+    height:45px;
+
+}
+.button{
+    background:#26272b;
+    border-color:transparent;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing:2px;
+    height:30px;
+    width:100px;
+    margin-left:10px;
+    margin-top:20px;
+}

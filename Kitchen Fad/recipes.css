@@ -1,0 +1,395 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	position: fixed;
+	margin:auto;
+  display:flexbox;
+  overflow:hidden;
+	text-align: center;
+	width: 100%;
+	font-family:'Montserrat', sans-serif;
+ } 
+ 
+ nav ul{
+
+	background:#000000;
+	padding: 0 20px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	width: 100%;
+ }
+ 
+ nav ul li{
+     display:block;
+     position:relative;
+	float:left;
+ }
+ 
+ nav ul li:hover{
+	background:rgba(238, 238, 238, 0.815);
+ }
+ 
+ nav ul li:hover a{
+	 color:rgb(0, 0, 0);
+ }
+ 
+ nav ul li a{
+	 display: block;
+	 padding: 17px;
+	 color: whitesmoke;
+	 text-decoration: none;
+	 border-radius: 6px;
+     font-weight: 500;
+ }
+
+ body,h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat", sans-serif
+}
+body, html{ 
+    height: 100%;
+    line-height: 1.8;
+    font-family: 'Product Sans', sans-serif
+ }
+ 
+ 
+.w3-bar .w3-button{
+    padding: 20px;
+}
+.container {
+    width: 1000px; margin-left: auto; margin-right: auto;
+    position:relative; 
+}
+            
+.profile-card-2{ 
+    max-width: 302px;
+    background-color: #EEEEEE;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1); 
+    background-position: center;
+    overflow:visible; 
+    margin: 10px auto; 
+    cursor: pointer; 
+    border-radius: 10px;
+    position: relative; top: -50px;
+}
+
+.profile-card-2 img{
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-name{ 
+    position: absolute;
+    left: 30px; 
+    bottom: 70px; 
+    font-size: 30px; 
+    color: #fff;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
+    font-weight: bold;
+    transition: all linear 0.25s;
+    font-family: "Montserrat", sans-serif
+}
+.profile-card-2 .profile-icons{ 
+    position: absolute;
+    bottom: 30px; 
+    right: 30px; 
+    color:#fff;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username{ 
+    position: absolute;
+    bottom: 50px; 
+    left: 30px; 
+    color: #fff; 
+    font-size: 13px;
+    transition: all linear 0.25s;
+    font-family: "Montserrat", sans-serif
+}
+            
+.profile-card-2 .profile-icons .fa{ 
+    margin: 5px;
+}
+            
+.profile-card-2:hover img{ 
+    filter: grayscale(100%);
+}
+
+.profile-card-2:hover .profile-name{ 
+    bottom: 80px;
+}
+
+.profile-card-2:hover .profile-username{ 
+    bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons{
+    right: 40px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+.profile-card-6{ 
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+    position: relative; 
+    margin: 10px auto; 
+    cursor: pointer;
+}
+            
+.profile-card-6 img{
+    transition: all 0.15s linear;
+}
+            
+.profile-card-6 .profile-name{ 
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    font-size: 25px;
+    font-weight: bold; 
+    color: #fff; 
+    padding: 15px 20px; 
+    background: linear-gradient(140deg, rgba(0, 0, 0, 0.4) 50%, rgba(255, 255, 0, 0) 50%); 
+    transition: all 0.15s linear;
+}
+
+.profile-card-6 .profile-position{ 
+    position: absolute;
+    color: rgba(255, 255, 255, 0.4); 
+    left: 30px;
+    top: 100px;
+    transition: all 0.15s linear;
+}
+
+.profile-card-6 .profile-overview{ 
+    position: absolute;
+    bottom: 0px; 
+    left: 0px; 
+    right: 0px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 50%, rgba(255, 255, 0, 0)); 
+    color: #fff;
+    padding: 50px 0px 20px 0px; 
+    transition: all 0.15s linear;
+}
+
+.profile-card-6 .profile-overview h3{ 
+    font-weight: bold;
+}
+            
+.profile-card-6 .profile-overview p{ 
+    color: rgba(255, 255, 255, 0.7);
+}
+            
+.profile-card-6:hover img { 
+    filter: brightness(80%);
+}
+            
+.profile-card-6:hover .profile-name{ 
+    padding-left: 25px;
+    padding-top: 20px;
+}
+            
+.profile-card-6:hover .profile-position{ 
+    left: 40px;
+}
+            
+.profile-card-6:hover .profile-overview{ 
+    padding-bottom: 25px;
+}
+
+.center{
+    position: absolute; top: 50%;
+    left: 25%;
+    -webkit-transform: translate(-50%, -50%);
+}
+.card { 
+    width: 450px;
+    height: 250px; 
+    background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJI AAAAIVBMVEW9wru5vre4vba9w7u4vbi7wbq8wby4vra9w7m9xLm9w7wcYHA1AAAC+UlEQVR4nO3X2V LdMAyAYS+RoLz/A9eWLVtJTwkMQ6HM/12EbF7kRTmkBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3kb1q3uA7+7jS0SykYfV3lffy364D59KegflGmF84fXy+u0jvOuglJsQv3uE9en1Dkr+ygjbArFtkJP/6X8Pea51rJ12VHuis7e+aebe60/L2ISaNO8tJVnG1pzvzUjWWs7hXT+x8mU01c6l jc0KXWJh2V1q7XgHQ43pXKwtIys8X+g7qv6qqQ+9WJNZZrvWhJTWroy4fEza8SX5Re+G9S2XYu+Pjo l1d3ba3tLiF3kGpda82nkpoce2DmR2sJeq46HYkOgIsl/oJbX1Sutqwls/ZrtpZYHxp1ct0uuRuLTm aLbS0oeplJl8fETmpPf7XmzOhpYwRNq7N+sZc3iailVf2jMuPiAvq4rchvoa4R5E7/RYtWX2wdfPuN 8CbEG2W2X1YI2P9viTjPDr7l2RULndf/JOtuprWmtHd1t6WnBhue41XeYktml72RGcA/Tx/zNCTSM9 6B6wS0bIlwjV92qsaV5cb61PS1zm+bUI8ynC83vnCC8BPo7Q1nipsxpZg5jHvLYTeRRhOUaIee7G2k MJEc55aE+klByKzmPIMdcIfUh07e5+fki9jfDhKq3PbSu2fBoi1MN3+toI1wgtX/lTWQllHnT9dIn5 SI/Y7ikNrAhtS1xaHjvnONJpDutKCacpjGVi6srJ59AmbCaBneAkZpqZavLI9vs8fCR6iSdLwN6A9G mXFH7TzIViAe7FM1KwFS3rQzWST/XGdQ/SOUQxaRwsTa4PjqxJ7klYwnyNAC2nenv+3IfaXlhDsM7C F208z96L8JX0mkY+21s2DGm8uyLoi3+VurcqO2+He/WvF/ev/ytik+ZX743wne7/8bh54/pteIuW50 oIsOS3zvv/qf0e0h8dIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8QL8BSEcKmtp+FwoA AAAASUVORK5CYII=");
+    background: linear-gradient(#f8f8f8, #fff); 
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4); 
+    border-radius: 6px;
+    overflow: hidden; 
+    position: relative; 
+    margin: 1.5rem;
+}
+
+.footer2{
+	background-color:#26272b;
+	padding:45px 0 20px;
+	font-size:15px;
+	line-height:24px;
+	color:#737373;
+}
+
+.footer2 hr{
+	border-top-color:#bbb;
+	opacity:0.5
+}
+
+.footer2 hr.small{
+	margin:20px 0
+}
+
+.footer2 h6{
+	color:#fff;
+	font-size:20px;
+	text-transform:uppercase;
+	margin-top:5px;
+	letter-spacing:2px
+}
+
+.footer2 a{
+	color:#737373;
+}
+.footer2 a:hover{
+	color:#3366cc;
+	text-decoration:none;
+}
+
+.footer-links{
+	padding-left:0;
+	list-style:none
+}
+
+.footer-links li{
+	display:block
+}
+
+.footer-links a{
+	color:#737373
+}
+
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover{
+	color:#3366cc;
+	text-decoration:none;
+}
+
+.footer-links.inline li{
+	display:inline-block
+}
+
+.footer2 .social-icons{
+	text-align:right
+}
+
+.footer2 .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+
+.copyright-text
+{
+  margin:0
+}
+
+@media (max-width:991px)
+{
+  .footer2 [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .footer2
+  {
+    padding-bottom:0
+  }
+  .footer2 .copyright-text,.footer2 .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+
+
+
+
+
+
+
+ 

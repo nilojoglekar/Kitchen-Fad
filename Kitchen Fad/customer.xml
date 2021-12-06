@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!--Nilophar Joglekar 19BCE2482-->
+<!-- 25 November 2021 -->
+<userinfo>
+<Customer>
+    <name>Rahul Sharma</name>
+    <userid>101</userid>
+    <email>rahul.sharma@gmail.com </email>
+    <age>42 </age>
+    <number>9926519823</number>
+</Customer>
+
+<Customer>
+    <name>Riya Gupta</name>
+    <userid>102</userid>
+    <email>riya.guptagmail.com </email>
+    <age>22</age>
+    <number>9254376189'</number>
+</Customer>
+
+<Customer>
+    <name>Rohit Agrawal</name>
+    <userid>103</userid>
+    <email>123rohit@gmail.com </email>
+    <age>29 </age>
+    <number>976124512</number>
+</Customer>
+
+<Customer>
+    <name>Prateek Sharma</name>
+    <userid>104</userid>
+    <email>prateek123@gmail.com</email>
+    <age>35 </age>
+    <number>8449268172</number>
+</Customer>
+
+<Customer>
+    <name>Sumit Sharma</name>
+    <userid>105</userid>
+    <email>sharma@gmail.com</email>
+    <age>20</age>
+    <number>9999999999</number>
+</Customer>
+
+<Customer>
+    <name>Dhruv Mehta</name>
+    <userid>106</userid>
+    <email>dhruv@gmail.com</email>
+    <age>20</age>
+    <number>9191919191</number>
+</Customer>
+
+<Customer>
+    <name>Amit Kanel</name>
+    <userid>107</userid>
+    <email>amit.kanel@gmail.com</email>
+    <age>42</age>
+    <number>9874512564</number>
+</Customer>
+
+</userinfo>
+

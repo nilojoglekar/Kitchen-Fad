@@ -1,0 +1,323 @@
+*{
+	margin: 0;
+	padding-top: 0;
+}
+
+nav {
+	position: fixed;
+	margin:auto;
+	text-align: center;
+	width: 100%;
+	font-family:'Montserrat', sans-serif;
+    padding-top: 0;
+ } 
+ 
+ nav ul{
+    position: fixed;
+	background:#000000;
+	padding: 0 20px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	width: 100%;
+ }
+ 
+ nav ul li{
+     display:block;
+     position:relative;
+	float:left;
+ }
+ 
+ nav ul li:hover{
+	background:rgba(255, 255, 255, 0.904);
+ }
+ 
+ nav ul li:hover a{
+	 color:rgb(0, 0, 0);
+ }
+ 
+ nav ul li a{
+	 display: block;
+	 padding: 17px;
+	 color: whitesmoke;
+	 text-decoration: none;
+	 border-radius: 6px;
+     font-weight: 500;
+ }
+
+ .receipe-content-area{
+   font-family: "Mntserrat",sans-serif;
+   padding-bottom: 50px;
+   padding-left: 250px;
+   
+ }
+ .image{
+    
+    padding-top: 5px;
+}
+
+.date{
+    padding-top: 10px;
+    font-family: "Product Sans", sans-serif;
+    font-size:5px;
+    font-weight: bold;
+    color:rgb(110, 110, 110);
+    padding-left:332px;
+    padding-bottom:0px;
+    text-align: left;
+}
+
+.name{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size:10px;
+    color:black;
+    padding-left:200px;
+    text-align: left;
+}
+
+.duration{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold; 
+    font-size:6px;
+    color:black;
+    padding-left:331px;
+    text-align: left;
+    line-height: 0pt;
+    padding-bottom:20px;
+}
+.bodyRect { 
+
+    
+    width:100px;
+    box-align:center;
+    
+}
+
+#d1 {
+    width: 75%; float: left;
+    padding-left: 331px;
+    padding-bottom:20px;
+}
+#d2 {
+    width: 90%; float: left;
+    
+}
+
+.method h4{
+    text-align: left;
+    font-family: "Product Sans", sans-serif;
+    font-size:20px;
+    color:black;
+    
+}
+
+.method p{
+    text-align: left;
+    font-family: "Product Sans", sans-serif;
+    font-size:15px;
+    color:black;
+    float:"left";
+    
+    
+}
+
+.ingredients h4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold; 
+    font-size:20px;
+    color:black;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.ingredients h5{
+    font-family: "Product Sans", sans-serif;
+    font-weight: bold; 
+    font-size:15px;
+    padding-left: 40px;
+    color:black;
+    text-align: left;
+    
+}
+
+
+.footer2{
+	background-color:#26272b;
+	width:100%;
+	font-size:15px;
+	line-height:24px;
+	color:#737373;
+    text-align: left;
+    padding-top:30px;
+    margin-left:0;
+    padding-bottom:20px;
+}
+
+.footer2 hr{
+	border-top-color:#bbb;
+	opacity:0.5
+}
+
+.footer2 hr.small{
+	margin:20px 0
+}
+
+.footer2 h6{
+	color:#fff;
+	font-size:20px;
+	text-transform:uppercase;
+	margin-top:5px;
+	letter-spacing:2px
+}
+
+.footer2 a{
+	color:#737373;
+}
+.footer2 a:hover{
+	color:#3366cc;
+	text-decoration:none;
+}
+
+.footer-links{
+	padding-left:0;
+	list-style:none
+}
+
+.footer-links li{
+	display:block
+}
+
+.footer-links a{
+	color:#737373
+}
+
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover{
+	color:#3366cc;
+	text-decoration:none;
+}
+
+.footer-links.inline li{
+	display:inline-block
+}
+
+.footer2 .social-icons{
+	text-align:right
+}
+
+.footer2 .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+
+.copyright-text
+{
+  margin:0
+}
+
+@media (max-width:991px)
+{
+  .footer2 [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .footer2
+  {
+    padding-bottom:0
+  }
+  .footer2 .copyright-text,.footer2 .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,530 @@
+/*26th August 2021*/
+/*B. Sai Sriya & Nilophar Joglekar*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right,#b4c1d1,#c5ced7);
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+	position: fixed;
+	margin:auto;
+	text-align: center;
+	width: 100%;
+	font-family:'Montserrat', sans-serif;
+ } 
+ 
+ nav ul {
+	background:rgba(235, 235, 235, 0.815);
+	padding: 0 20px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	width: 100%;
+ }
+ 
+ nav ul li{
+     display:block;
+     position:relative;
+	float:left;
+ }
+ 
+ nav ul li:hover{
+	background:#26272b;
+ }
+ 
+ nav ul li:hover a{
+	 color:rgb(253, 253, 253);
+ }
+ 
+ nav ul li a{
+	 display: block;
+	 padding: 17px;
+	 color: rgb(0, 0, 0);
+	 text-decoration: none;
+	 border-radius: 6px;
+     font-weight: 500;
+ }
+.title{
+	padding: 25px;
+}
+
+@media(max-width: 850px){
+	.logo{
+		position: fixed;
+		top: 0;
+		font: Montserrat;
+		margin-top: 8px;
+		text-align: right;
+	}
+    
+	nav ul{
+		max-height: 0px;
+		background: #ffffff;
+	}
+
+	nav.black ul{
+		background: rgb(255, 255, 255);
+	}
+
+	.showing{
+		max-height: 28cm;
+	}
+
+	nav ul li{
+		box-sizing: border-box;
+		width: 100%;
+		padding: 24px 0;
+		text-align: center;
+	}
+
+	.menu-icon{
+		display: block;
+	}
+}
+
+/*19th August 2021*/
+/*Nilophar Joglekar 19BCE2482*/
+.cover-img{
+	width: 100%;
+	height: 50vh;
+	background: url(general_disc.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.cover-content h1{
+	position: absolute;
+	padding: 25px;
+	left: 50%;
+	top: 25%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+    letter-spacing: 12px;
+}
+
+
+
+
+.cover-content button:hover{
+	background:grey;
+	color: #fff;
+}
+
+
+  .w3-center h2{
+    color: black;
+    letter-spacing: 8px; 
+    font-family: 'Gotham';
+    padding-top: 5px;
+    padding-bottom: 15px;
+    
+  }  
+
+.w3-center h3{
+    color: black;
+    letter-spacing: 2px; 
+    font-family: 'Gotham';
+    padding-top: 5px;
+    text-align:left;
+}
+.w3-center h5{
+        color: black;
+        font-family: 'Product Sans';
+        padding-top: 10px;
+        text-align:left;
+        line-height: 20px;
+}
+.w3-center h6{
+    color: rgb(107, 106, 106);
+    font-family: 'Product Sans';
+    text-align:left;
+    line-height: 20px;
+    font-size: 14px;
+}
+.w3-justify h4{
+    color: black;
+        font-family: 'Product Sans';
+}
+.w3-justify h5{
+color: rgb(107, 106, 106);
+        font-family: 'Product Sans';
+} 
+.w3-justify p{
+    color: black;
+        font-family: 'Product Sans';
+} 
+
+.donate{
+    padding-bottom:50px;
+    
+}
+.donate h2{
+    color: black;
+    letter-spacing: 8px; 
+    font-family: 'Gotham';
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left:20px;
+    text-align: center;
+    
+}
+.donate p{
+    color: black;
+        font-family: 'Product Sans';
+        font-size:14px;
+        margin-left:20px;
+        text-align: center;
+    
+}
+.donate button {
+        background-color: #000000;
+    border: none;
+    color: white;
+    text-align:center;
+    padding: 10px 12px;
+    font-size: 18px;
+    cursor: pointer;
+    padding-left: 20px;
+    cursor: pointer;
+    margin-right: 30px;
+    font-family: 'Montserrat';
+    width:20%;
+    margin-left:20px;
+    text-decoration: none;
+    
+    
+      }
+
+      .donate button a{
+    
+        color: white;
+        
+      }
+      
+      .donate button:hover {
+        background-color: rgb(228, 228, 228);
+        color: black;
+        padding-bottom: 10px;
+      }  
+      .donate a:hover {
+        background-color: rgb(228, 228, 228);
+        color: black;
+    
+      }     
+    
+.contact{
+    margin-left:10px;
+}
+.footer{
+	width: 100%;
+	height: 100%;
+	background-color: rgb(214, 214, 214);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+}
+
+.section1{
+	width: 50%;
+    padding: 35px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+	font-family:'Montserrat', sans-serif;
+}
+
+.section1 p{
+	margin-top: 5px;
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+	font-family:'Product Sans', sans-serif;
+
+}
+
+.section1 h2{
+	padding-top: 15px;
+	color: rgb(0, 0, 0);
+	
+
+}
+
+.section1 ul li{
+	
+	color: rgb(0, 0, 0);
+	font-size:18px;
+	line-height:0.5;
+	font-family:'Product Sans', sans-serif;
+
+}
+
+.section2{
+	width: 50%;
+	padding: 35px;
+	text-align: center;
+	padding-top:70px;
+}
+
+.section2 h2{
+	font-family:'Product Sans', sans-serif;
+	font-size: 30px;
+}
+
+.section2 h4{
+	font-family:'Product Sans', sans-serif;
+	font-size: 20px;
+}
+
+
+.section2 input{
+    margin: 10px;
+    width: 60%;
+    height: 28px;
+	text-align: center;
+	background: rgba(0,0,0,0.5);
+	color:black;
+	box-sizing: border-box;
+	border-radius: 4px;
+	border: 1px solid rgb(0, 0, 0);
+}
+
+.section2 #msg{
+	height: 130px;
+}
+
+.section2 button{
+	margin: 10px;
+	padding: 12px;
+	background: #000000;
+	color: #fff;
+	
+}
+
+.section2.footer{
+	margin: 10px;
+	color: #fff;
+}
+@media(max-width: 900px){
+	.footer{
+		display: block;
+
+	}
+
+	.section1{
+		width: 100%;
+        padding: 0;
+        text-align: center;
+		font-family:'Product Sans', sans-serif;
+
+	}
+
+	.section1 h4{
+    	padding: 10px;
+		font-family:'Product Sans', sans-serif;
+
+    }
+    
+    .section1 p{
+    	margin: 6px;
+    	padding: 15px;
+		font-family:'Product Sans', sans-serif;
+
+    }
+
+    .section1 .ul li{
+    	margin: 6px;
+    	padding: 15px;
+		font-family:'Product Sans', sans-serif;
+		font-size: 10px;
+
+    }
+
+	.section2{
+		width: 100%;
+	    padding: 0;
+	    text-align: center;
+	    margin-top: 35px;
+		font-family:'Product Sans', sans-serif;
+
+	}
+}
+
+
+.footer2{
+	background-color:#26272b;
+	padding:45px 0 20px;
+	font-size:15px;
+	line-height:24px;
+	color:#737373;
+}
+
+.footer2 hr{
+	border-top-color:#bbb;
+	opacity:0.5
+}
+
+.footer2 hr.small{
+	margin:20px 0
+}
+
+.footer2 h6{
+	color:#fff;
+	font-size:20px;
+	text-transform:uppercase;
+	margin-top:5px;
+	letter-spacing:2px
+}
+
+.footer2 a{
+	color:#737373;
+}
+.footer2 a:hover{
+	color:#3366cc;
+	text-decoration:none;
+}
+
+.footer-links{
+	padding-left:0;
+	list-style:none
+}
+
+.footer-links li{
+	display:block
+}
+
+.footer-links a{
+	color:#737373
+}
+
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover{
+	color:#3366cc;
+	text-decoration:none;
+}
+
+.footer-links.inline li{
+	display:inline-block
+}
+
+.footer2 .social-icons{
+	text-align:right
+}
+
+.footer2 .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+
+.copyright-text
+{
+  margin:0
+}
+
+@media (max-width:991px)
+{
+  .footer2 [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .footer2
+  {
+    padding-bottom:0
+  }
+  .footer2 .copyright-text,.footer2 .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+
+
+
+
+  
